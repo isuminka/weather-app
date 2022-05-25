@@ -1,0 +1,41 @@
+.form-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2020/09/15/08/05/sunrise-5572962_1280.jpg') no-repeat;
+    background-size: cover;
+}
+
+.form-page form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-page form input {
+    outline: none;
+    border: 0;
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: inherit;
+    border-bottom: 2px solid rgb(76, 76, 182);
+}
+.form-page form input::placeholder {
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+}
+
+.form-page form button {
+    outline: none;
+    border: 0;
+    width: 80px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgba(97, 97, 97, 0.6);
+}
+
+
+
